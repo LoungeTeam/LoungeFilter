@@ -1,0 +1,17 @@
+name: LoungeFilter
+version: '1.0'
+main: com.example.chatfilter.ChatFilter
+author: LoungeTeam
+website: https://github.com/LoungeTeam
+description: Продвинутый фильтр чата для стримов от LoungeTeam. Защищает ваш чат от нежелательных сообщений и поддерживает правила Twitch.
+
+commands:
+  chatfilter:
+    description: Управление фильтрацией чата
+    usage: /<command> <on|off>
+    permission: loungefilter.media
+
+permissions:
+  loungefilter.media:
+    description: Доступ к управлению фильтром чата
+    default: op
